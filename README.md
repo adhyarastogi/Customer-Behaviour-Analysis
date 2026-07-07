@@ -32,18 +32,13 @@ This project answers the business question:
 
 ## 🛠️ Tools & Technologies
 
-- **Python**
-  - Pandas
-  - SQLAlchemy
-  - PyMySQL
-
-- **MySQL Workbench**
-
-- **Power BI**
-
-- **Gamma** (Presentation)
-
-- **Microsoft Word** (Project Report)
+| Tool | Purpose |
+|------|---------|
+| **Python (Pandas, SQLAlchemy)** | Data cleaning, exploratory data analysis (EDA), feature engineering, and exporting the cleaned dataset to MySQL |
+| **MySQL Workbench** | Business analysis, SQL querying, customer segmentation, and trend analysis |
+| **Power BI** | Interactive dashboard development and data visualization |
+| **Gamma** | Executive presentation and business storytelling |
+| **Microsoft Word** | Business report |
 
 ---
 
@@ -105,24 +100,49 @@ Created:
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Key Findings
 
-- Subscription customers generated higher revenue than non-subscribers.
-- Adult and middle-aged customers contributed the highest revenue.
-- Discounts influenced purchasing decisions for several products.
-- Loyal customers represented a significant share of repeat purchases.
-- Highly rated products present strong cross-selling and promotional opportunities.
+### 👥 Customer Demographics
+- Male customers made up **68% of the customer base** (2,652 of 3,900), generating **$157,890 in revenue**
+- Despite fewer numbers, **female customers spent more per purchase** ($60.25 vs. $59.48 avg), signaling a high-value segment worth targeting
+
+### 💳 Subscription Behavior
+- **73% of customers were non-subscribers**, contributing $170,436 in revenue
+- Subscribed customers (27%) generated $62,645 with comparable avg spend ($59.49 vs. $59.87), indicating strong **untapped subscription growth potential**
+
+### 🏷️ Discount Effectiveness
+- **839 customers (21.5%)** used discounts while spending *above* the overall average purchase amount
+- Proves that **strategic promotions drive higher-value purchases**, not just bargain hunting
+
+### 🔁 Customer Loyalty
+- **3,116 customers (79.9%) classified as loyal**, a strong retention base
+- Highlights the critical importance of loyalty programs to protect and grow this majority segment
+
+### 📊 Revenue by Age Group
+- **Young Adults generated the highest revenue ($62,143)**
+- Followed by Middle-aged customers ($59,197)
+- These two segments are the **highest-priority targets** for marketing spend
+
+### 🛍️ Product & Category Performance
+- **Clothing** was the top-performing category with 1,737 sales, highest overall revenue
+- **Footwear** received the highest avg category rating (3.79/5)
+- Top-rated individual products: Gloves (3.86), Sandals (3.84), Boots (3.82)
+
+### 🚚 Shipping Preferences
+- **Express shipping customers spent more on average** ($60.48 vs. $58.46 Standard)
+- Suggests a clear opportunity to **promote premium delivery** to high-value customers
 
 ---
 
 ## 💡 Business Recommendations
 
-- Expand customer loyalty programs.
-- Personalize discount campaigns.
-- Strengthen subscription benefits.
-- Promote highly rated products.
-- Develop targeted marketing campaigns based on customer demographics.
-- Optimize inventory using product demand insights.
+| # | Recommendation | Business Impact |
+|---|---------------|-----------------|
+| 1 | Introduce **tiered loyalty rewards** with exclusive benefits | Increase retention & customer lifetime value |
+| 2 | Replace broad discounts with **targeted discount strategies** for price-sensitive segments | Improve promotion ROI |
+| 3 | Focus campaigns on **Young Adults & Middle-aged** customers | Maximize revenue from highest-value segments |
+| 4 | Promote **Clothing & top-rated Footwear** products | Drive sales in proven high-performing categories |
+| 5 | Encourage **Express Shipping** with value-added delivery perks for high spenders | Increase avg order value & premium experience |
 
 ---
 
