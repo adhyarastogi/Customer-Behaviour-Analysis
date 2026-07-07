@@ -94,6 +94,10 @@ Interactive filters include:
 - Category
 - Shipping Type
 
+<p align="center">
+  <img src="dashboard.png" alt="Power BI Dashboard" width="1000"/>
+</p>
+
 ### 5. Business Reporting
 Created:
 - Professional project report
