@@ -149,7 +149,7 @@ Customer-Behavior-Analysis/
 ├── Presentation/
 │   └── Customer_Behavior_Analysis_Presentation.pdf
 |
-├── Asseta/
+├── Assets/
 │   └── dashboard.png
 |
 └── README.md
